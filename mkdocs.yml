@@ -4,6 +4,7 @@ theme:
   favicon: assets/code-solid.svg
   icon:
     logo: fontawesome/solid/code
+    repo: fontawesome/brands/git-alt
   palette:
     primary: indigo
   features:
@@ -13,6 +14,8 @@ theme:
       - setup/index.md
 extra:
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Aktindo
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/aktindo
     - icon: fontawesome/brands/discord
@@ -28,3 +31,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - meta
+repo_url: https://github.com/Aktindo/Project-Docs
+repo_name: Aktindo/Project-Docs
+edit_uri: edit/main/docs/
+plugins:
+  - git-revision-date-localized:
+      type: timeago

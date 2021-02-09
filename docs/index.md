@@ -1,3 +1,11 @@
+{% block extrahead %}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ config.site_description }}" />
+  <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta content="#4051b6" data-react-helmet="true" name="theme-color">
+{% endblock %}
+
 # Home
 
 Welcome to the all in one place for Aktindo's Projects. Here you can find
