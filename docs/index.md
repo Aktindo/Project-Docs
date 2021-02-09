@@ -1,8 +1,7 @@
 {% block extrahead %}
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ title }}" />
-  <meta property="og:description" content="{{ config.site_description }}" />
-  <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta property="og:title" content="Aktindo Docs" />
+  <meta property="og:description" content="The official documentation for all Aktindo's Projects." />
   <meta content="#4051b6" data-react-helmet="true" name="theme-color">
 {% endblock %}
 
