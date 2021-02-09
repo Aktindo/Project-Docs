@@ -1,0 +1,30 @@
+site_name: Aktindo's Projects
+theme:
+  name: material
+  favicon: assets/code-solid.svg
+  icon:
+    logo: fontawesome/solid/code
+  palette:
+    primary: indigo
+  features:
+    - navigation.instant
+  nav:
+    - Section:
+      - setup/index.md
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/aktindo
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/6g297Usrsn
+copyright: Copyright &copy; 2020-2021 Aktindo
+markdown_extensions:
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
