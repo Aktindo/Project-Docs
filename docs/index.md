@@ -1,10 +1,3 @@
-{% block extrahead %}
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Aktindo Docs" />
-  <meta property="og:description" content="The official documentation for all Aktindo's Projects." />
-  <meta content="#4051b6" data-react-helmet="true" name="theme-color">
-{% endblock %}
-
 # Home
 
 Welcome to the all in one place for Aktindo's Projects. Here you can find
