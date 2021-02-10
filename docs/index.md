@@ -1,4 +1,4 @@
-# Home
+# :fontawesome-solid-home: Home
 
 Welcome to the all in one place for Aktindo's Projects. Here you can find
 
@@ -6,20 +6,26 @@ Welcome to the all in one place for Aktindo's Projects. Here you can find
 - Tips on how to use them more immensly.
 - How to setup the projects on your own machine.
 
-## Documentation Notation
-
-- Any argument that is wrapped with a `[]` is **optional**.
-- Any argument that is wrapped with a `<>` is **required**.
-- A `|` after the argument means that you can use either of the arguments.
-- A `{}` after the argument means you can use those variables in it to create dynamic stuff.
-
-!!! tip "Regular Tip"
-    Arguments that have a `?` after them have to be followed by a rule.
-
-    **For example:** If you have a argument - `<time?number>`, it states that time has to be a number and nothing else. 
-
-    You can even see an another type - `<time?(number|literal)>`, it states that time can either be a number or a literal. 
-
 ## Documentation Status
 - [ ] Fully Built
+- [ ] All projects documented
 - [x] Fully Reviewed 
+
+## :material-list-status: Documentation Changelog
+
+### v1.0.1 - <small>February 10th, 2021 `(2/10/2021)`</small>
+```diff
+# Additions
++ Added basic documentation for some-random-cat.
++ Added more todos'.
++ Added more styles.
++ Fixed Navbar.
++ Meta Tags.
+# Removals
+- Removed documentation notation.
+```
+
+### v1.0.0 - <small>February 9th, 2021 `(2/9/2021)`</small>
+```diff
++ Added basic information
+```

@@ -1,17 +1,42 @@
-site_name: Aktindo's Projects
+site_name: Aktindo - Project Docs
+site_url: https://aktindo.thedev.id/Project-Docs
+site_author: Aktindo
+site_description: An all in one place to view and learn more about Aktindo's projects.
+
+repo_url: https://github.com/Aktindo/Project-Docs
+repo_name: Aktindo/Project-Docs
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2020-2021 Aktindo
+
 theme:
   name: material
-  favicon: assets/code-solid.svg
+  favicon: assets/images/my-favicon.svg
   icon:
     logo: fontawesome/solid/code
     repo: fontawesome/brands/git-alt
   palette:
     primary: indigo
+    accent: indigo
   features:
-    - navigation.instant
-  nav:
-    - Section:
-      - setup/index.md
+    - navigation.tabs
+    - navigation.sections
+nav:
+  - Home:
+    - Overview: index.md
+  - Some Random Cat:
+    - Overview: some-random-cat/overview.md
+    - Documentation:
+      - General:
+        - Getting Started: some-random-cat/documentation/general/getting-started.md
+        - Updates: some-random-cat/documentation/general/updates.md
+      - Examples:
+        - Random Cat: some-random-cat/documentation/examples/random-cat.md
+        - Random Joke: some-random-cat/documentation/examples/random-joke.md
+      - Classes: 
+        - Generation: some-random-cat/documentation/classes/generation.md
+        - Random: some-random-cat/documentation/classes/random.md
+        - Util: some-random-cat/documentation/classes/util.md
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -20,21 +45,26 @@ extra:
       link: https://twitter.com/aktindo
     - icon: fontawesome/brands/discord
       link: https://discord.gg/6g297Usrsn
-copyright: Copyright &copy; 2020-2021 Aktindo
+
+extra_css:
+  - assets/stylesheets/extra.css
+
 markdown_extensions:
+  - toc:
+      permalink: true
+  - attr_list
   - def_list
+  - admonition
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
-  - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
   - meta
-repo_url: https://github.com/Aktindo/Project-Docs
-repo_name: Aktindo/Project-Docs
-edit_uri: edit/main/docs/
 plugins:
   - git-revision-date-localized:
       type: timeago
