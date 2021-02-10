@@ -26,4 +26,4 @@ SomeRandomCat.getCat() // Function for generating cat
 });
 ```
 
-[Get Started](/some-random-cat/documentation/general/getting-started/){: .md-button .md-button--primary } [:material-discord: Discord](https://discord.gg/6g297Usrsn){: .md-button }
+[Get Started](/docs/some-random-cat/documentation/general/getting-started/){: .md-button .md-button--primary } [:material-discord: Discord](https://discord.gg/6g297Usrsn){: .md-button }
